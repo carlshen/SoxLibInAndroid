@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+app/.externalNativeBuild/
+app/.cxx/
+app/build
+.cxx/
+x64/
+[Bb]in/
+[Oo]bj/
+soxcommandlibrary/.cxx/
+soxcommandlibrary/.cxx
+soxcommandlibrary/build/
+soxcommandlibrary/build
+.idea
+.idea/
+.gradle/
+# Generated files
+bin/
+gen/
+out/
+# Keystore files
+*.jks

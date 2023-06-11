@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SoxCommandLibAndroid.iml" filepath="$PROJECT_DIR$/SoxCommandLibAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/soxcommandlibrary/soxcommandlibrary.iml" filepath="$PROJECT_DIR$/soxcommandlibrary/soxcommandlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SoxCommandLibAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SoxCommandLibAndroid.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SoxCommandLibAndroid.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SoxCommandLibAndroid.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SoxCommandLibAndroid.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SoxCommandLibAndroid.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SoxCommandLibAndroid.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SoxCommandLibAndroid.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/soxcommandlibrary/SoxCommandLibAndroid.soxcommandlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/soxcommandlibrary/SoxCommandLibAndroid.soxcommandlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/soxcommandlibrary/SoxCommandLibAndroid.soxcommandlibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/soxcommandlibrary/SoxCommandLibAndroid.soxcommandlibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/soxcommandlibrary/SoxCommandLibAndroid.soxcommandlibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/soxcommandlibrary/SoxCommandLibAndroid.soxcommandlibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/soxcommandlibrary/SoxCommandLibAndroid.soxcommandlibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/soxcommandlibrary/SoxCommandLibAndroid.soxcommandlibrary.unitTest.iml" />
     </modules>
   </component>
 </project>

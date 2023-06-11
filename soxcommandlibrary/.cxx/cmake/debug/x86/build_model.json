@@ -1,20 +1,116 @@
 {
+  "abi": "X86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+  "cxxBuildFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+  "abiPlatformVersion": 17,
+  "cmake": {
+    "cmakeWrappingBaseFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86",
+    "cmakeArtifactsBaseFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+      "cmakeToolchain": "D:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\prefab\\x86\\prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "D:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "D:\\Android\\sdk\\ndk\\21.4.7075529"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-17"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "D:\\Android\\sdk\\ndk\\21.4.7075529"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj\\x86"
+        },
+        {
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
+          "value": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj\\x86"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "17"
+        }
+      ]
+    },
+    "cmakeServerLogFile": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\cmake_server_log.txt"
+  },
   "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "objFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj",
+    "soFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\lib",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "rootBuildGradleFolder": "F:\\SoxCommandLibAndroid",
-      "sdkFolder": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk",
-      "isNativeCompilerSettingsCacheEnabled": false,
-      "isBuildOnlyTargetAbiEnabled": true,
+      "cxxFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx",
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates",
+      "intermediatesFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\build\\intermediates",
       "gradleModulePathName": ":soxcommandlibrary",
-      "moduleRootFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary",
-      "makeFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\CMakeLists.txt",
+      "moduleRootFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary",
+      "moduleBuildFile": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\build.gradle",
+      "makeFile": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\src\\main\\sox\\CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "compilerSettingsCacheFolder": "F:\\SoxCommandLibAndroid\\.cxx",
-      "cxxFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx",
-      "ndkFolder": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944",
-      "ndkVersion": "20.1.5948944",
+      "ndkFolder": "D:\\Android\\sdk\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -27,44 +123,92 @@
         "X86",
         "X86_64"
       ],
-      "cmakeToolchainFile": "."
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "originalCmakeToolchainFile": "D:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "D:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "isPreferCmakeFileApiEnabled": true
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "D:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "D:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "D:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "D:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid",
+        "cxxFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\.cxx",
+        "compilerSettingsCacheFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\.cxx",
+        "sdkFolder": "D:\\Android\\sdk",
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false,
+        "isV2NativeModelEnabled": true
+      },
+      "nativeBuildOutputLevel": "QUIET"
     },
-    "buildSystemArgumentList": [],
-    "cFlagList": [],
-    "cppFlagsList": [],
-    "variantName": "debug",
-    "soFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\lib",
-    "objFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj",
-    "jsonFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug",
-    "gradleBuildOutputFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug",
-    "isDebuggableEnabled": true,
-    "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A",
-      "X86",
-      "X86_64"
-    ],
-    "buildTargetSet": []
+    "prefabDirectory": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\prefab"
   },
-  "abi": "X86",
-  "abiPlatformVersion": 17,
-  "cxxBuildFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
-  "jsonFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json",
-  "gradleBuildOutputFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86",
-  "objFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj\\x86",
-  "buildCommandFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\build_command.txt",
-  "buildOutputFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\build_output.txt",
-  "modelOutputFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\build_model.json",
-  "cmake": {
-    "cmakeListsWrapperFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\CMakeLists.txt",
-    "toolchainWrapperFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\android_gradle_build.toolchain.cmake",
-    "buildGenerationStateFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\build_generation_state.json",
-    "cacheKeyFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\compiler_cache_key.json",
-    "compilerCacheUseFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\compiler_cache_use.json",
-    "compilerCacheWriteFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\compiler_cache_write.json",
-    "toolchainSettingsFromCacheFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\compiler_settings_cache.cmake",
-    "cmakeWrappingBaseFolder": "."
+  "buildSettings": {
+    "environmentVariables": []
   },
-  "jsonGenerationLoggingRecordFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\json_generation_record.json",
-  "compileCommandsJsonFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\compile_commands.json"
+  "prefabFolder": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\prefab\\x86"
 }

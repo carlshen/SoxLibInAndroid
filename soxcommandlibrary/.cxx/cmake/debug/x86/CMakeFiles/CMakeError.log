@@ -1,13 +1,14 @@
 Determining if files io.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_6c3e6"
-[1/2] Building C object CMakeFiles/cmTC_6c3e6.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_6c3e6.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'io.h' file not found
-#include <io.h>
-         ^~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_73adf"
+[1/2] Building C object CMakeFiles/cmTC_73adf.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_73adf.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_73adf.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -18,15 +19,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/timeb.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_5ded1"
-[1/2] Building C object CMakeFiles/cmTC_5ded1.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_5ded1.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'sys/timeb.h' file not found
-#include <sys/timeb.h>
-         ^~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b3365"
+[1/2] Building C object CMakeFiles/cmTC_b3365.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_b3365.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b3365.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'sys/timeb.h' file not found
+#include <sys/timeb.h>
+         ^~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -37,39 +39,42 @@ Source:
 int main(void){return 0;}
 
 Determining if the function fmemopen exists failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ac63f"
-[1/2] Building C object CMakeFiles/cmTC_ac63f.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_ac63f
-FAILED: cmd.exe /C "cd . && C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=fmemopen  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections CMakeFiles/cmTC_ac63f.dir/CheckFunctionExists.c.o  -o cmTC_ac63f  -latomic -lm && cd ."
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'fmemopen'
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_15437"
+[1/2] Building C object CMakeFiles/cmTC_15437.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_15437
+FAILED: cmTC_15437 
+cmd.exe /C "cd . && D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=fmemopen  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_15437.dir/CheckFunctionExists.c.o  -o cmTC_15437  -latomic -lm && cd ."
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:17: error: undefined reference to 'fmemopen'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ninja: build stopped: subcommand failed.
 
 
 Determining if the function strrstr exists failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_37895"
-[1/2] Building C object CMakeFiles/cmTC_37895.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_37895
-FAILED: cmd.exe /C "cd . && C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=strrstr  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections CMakeFiles/cmTC_37895.dir/CheckFunctionExists.c.o  -o cmTC_37895  -latomic -lm && cd ."
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'strrstr'
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a84ab"
+[1/2] Building C object CMakeFiles/cmTC_a84ab.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a84ab
+FAILED: cmTC_a84ab 
+cmd.exe /C "cd . && D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=strrstr  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_a84ab.dir/CheckFunctionExists.c.o  -o cmTC_a84ab  -latomic -lm && cd ."
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:17: error: undefined reference to 'strrstr'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ninja: build stopped: subcommand failed.
 
 
 Determining if files gsm/gsm.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_9df0c"
-[1/2] Building C object CMakeFiles/cmTC_9df0c.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_9df0c.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'gsm/gsm.h' file not found
-#include <gsm/gsm.h>
-         ^~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a8dad"
+[1/2] Building C object CMakeFiles/cmTC_a8dad.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_a8dad.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_a8dad.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'gsm/gsm.h' file not found
+#include <gsm/gsm.h>
+         ^~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -80,15 +85,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files lpc10/lpc10.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_055ad"
-[1/2] Building C object CMakeFiles/cmTC_055ad.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_055ad.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'lpc10/lpc10.h' file not found
-#include <lpc10/lpc10.h>
-         ^~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_be505"
+[1/2] Building C object CMakeFiles/cmTC_be505.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_be505.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_be505.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'lpc10/lpc10.h' file not found
+#include <lpc10/lpc10.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -99,15 +105,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files alsa/asoundlib.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4498e"
-[1/2] Building C object CMakeFiles/cmTC_4498e.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_4498e.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'alsa/asoundlib.h' file not found
-#include <alsa/asoundlib.h>
-         ^~~~~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_38b64"
+[1/2] Building C object CMakeFiles/cmTC_38b64.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_38b64.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_38b64.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'alsa/asoundlib.h' file not found
+#include <alsa/asoundlib.h>
+         ^~~~~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -118,15 +125,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files amrnb/sp_dec.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_1fba4"
-[1/2] Building C object CMakeFiles/cmTC_1fba4.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_1fba4.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'amrnb/sp_dec.h' file not found
-#include <amrnb/sp_dec.h>
-         ^~~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_96385"
+[1/2] Building C object CMakeFiles/cmTC_96385.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_96385.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_96385.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'amrnb/sp_dec.h' file not found
+#include <amrnb/sp_dec.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -137,15 +145,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files amrwb/dec.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_97145"
-[1/2] Building C object CMakeFiles/cmTC_97145.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_97145.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'amrwb/dec.h' file not found
-#include <amrwb/dec.h>
-         ^~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_8a5ca"
+[1/2] Building C object CMakeFiles/cmTC_8a5ca.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_8a5ca.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_8a5ca.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'amrwb/dec.h' file not found
+#include <amrwb/dec.h>
+         ^~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -156,15 +165,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files id3tag.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_1dd0a"
-[1/2] Building C object CMakeFiles/cmTC_1dd0a.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_1dd0a.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'id3tag.h' file not found
-#include <id3tag.h>
-         ^~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_4b0aa"
+[1/2] Building C object CMakeFiles/cmTC_4b0aa.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_4b0aa.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_4b0aa.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'id3tag.h' file not found
+#include <id3tag.h>
+         ^~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -175,15 +185,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files sndio.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_3c1d0"
-[1/2] Building C object CMakeFiles/cmTC_3c1d0.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_3c1d0.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'sndio.h' file not found
-#include <sndio.h>
-         ^~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a8454"
+[1/2] Building C object CMakeFiles/cmTC_a8454.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_a8454.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_a8454.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'sndio.h' file not found
+#include <sndio.h>
+         ^~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -194,15 +205,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files ao/ao.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_563ab"
-[1/2] Building C object CMakeFiles/cmTC_563ab.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_563ab.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'ao/ao.h' file not found
-#include <ao/ao.h>
-         ^~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6a69b"
+[1/2] Building C object CMakeFiles/cmTC_6a69b.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_6a69b.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_6a69b.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'ao/ao.h' file not found
+#include <ao/ao.h>
+         ^~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -213,15 +225,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files FLAC/all.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_87209"
-[1/2] Building C object CMakeFiles/cmTC_87209.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_87209.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'FLAC/all.h' file not found
-#include <FLAC/all.h>
-         ^~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b40d4"
+[1/2] Building C object CMakeFiles/cmTC_b40d4.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_b40d4.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b40d4.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'FLAC/all.h' file not found
+#include <FLAC/all.h>
+         ^~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -232,15 +245,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files mad.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2b612"
-[1/2] Building C object CMakeFiles/cmTC_2b612.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_2b612.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'mad.h' file not found
-#include <mad.h>
-         ^~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_fbd31"
+[1/2] Building C object CMakeFiles/cmTC_fbd31.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_fbd31.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_fbd31.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'mad.h' file not found
+#include <mad.h>
+         ^~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -251,15 +265,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files lame/lame.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_dcb07"
-[1/2] Building C object CMakeFiles/cmTC_dcb07.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_dcb07.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'lame/lame.h' file not found
-#include <lame/lame.h>
-         ^~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_99158"
+[1/2] Building C object CMakeFiles/cmTC_99158.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_99158.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_99158.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'lame/lame.h' file not found
+#include <lame/lame.h>
+         ^~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -270,15 +285,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files twolame.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4396b"
-[1/2] Building C object CMakeFiles/cmTC_4396b.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_4396b.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'twolame.h' file not found
-#include <twolame.h>
-         ^~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_604b2"
+[1/2] Building C object CMakeFiles/cmTC_604b2.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_604b2.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_604b2.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'twolame.h' file not found
+#include <twolame.h>
+         ^~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -289,15 +305,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files magic.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ed89a"
-[1/2] Building C object CMakeFiles/cmTC_ed89a.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_ed89a.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'magic.h' file not found
-#include <magic.h>
-         ^~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_3efc6"
+[1/2] Building C object CMakeFiles/cmTC_3efc6.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_3efc6.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_3efc6.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'magic.h' file not found
+#include <magic.h>
+         ^~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -308,15 +325,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files png.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_fd829"
-[1/2] Building C object CMakeFiles/cmTC_fd829.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_fd829.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'png.h' file not found
-#include <png.h>
-         ^~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_f8af7"
+[1/2] Building C object CMakeFiles/cmTC_f8af7.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_f8af7.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_f8af7.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'png.h' file not found
+#include <png.h>
+         ^~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -327,15 +345,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files pulse/simple.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ed5f6"
-[1/2] Building C object CMakeFiles/cmTC_ed5f6.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_ed5f6.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'pulse/simple.h' file not found
-#include <pulse/simple.h>
-         ^~~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_29ca8"
+[1/2] Building C object CMakeFiles/cmTC_29ca8.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_29ca8.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_29ca8.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'pulse/simple.h' file not found
+#include <pulse/simple.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -346,15 +365,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files sndfile.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_51c11"
-[1/2] Building C object CMakeFiles/cmTC_51c11.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_51c11.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'sndfile.h' file not found
-#include <sndfile.h>
-         ^~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_4aee3"
+[1/2] Building C object CMakeFiles/cmTC_4aee3.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_4aee3.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_4aee3.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'sndfile.h' file not found
+#include <sndfile.h>
+         ^~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -365,15 +385,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files speex/speex_preprocess.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_42f68"
-[1/2] Building C object CMakeFiles/cmTC_42f68.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_42f68.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'speex/speex_preprocess.h' file not found
-#include <speex/speex_preprocess.h>
-         ^~~~~~~~~~~~~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_7cf55"
+[1/2] Building C object CMakeFiles/cmTC_7cf55.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_7cf55.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_7cf55.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'speex/speex_preprocess.h' file not found
+#include <speex/speex_preprocess.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -384,15 +405,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files sun/audioio.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_04e9b"
-[1/2] Building C object CMakeFiles/cmTC_04e9b.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_04e9b.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'sun/audioio.h' file not found
-#include <sun/audioio.h>
-         ^~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_caf28"
+[1/2] Building C object CMakeFiles/cmTC_caf28.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_caf28.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_caf28.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'sun/audioio.h' file not found
+#include <sun/audioio.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -403,15 +425,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/audioio.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_6b806"
-[1/2] Building C object CMakeFiles/cmTC_6b806.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_6b806.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'sys/audioio.h' file not found
-#include <sys/audioio.h>
-         ^~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c7083"
+[1/2] Building C object CMakeFiles/cmTC_c7083.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_c7083.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_c7083.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'sys/audioio.h' file not found
+#include <sys/audioio.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -422,15 +445,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/soundcard.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_219b5"
-[1/2] Building C object CMakeFiles/cmTC_219b5.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_219b5.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'sys/soundcard.h' file not found
-#include <sys/soundcard.h>
-         ^~~~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d5154"
+[1/2] Building C object CMakeFiles/cmTC_d5154.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_d5154.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_d5154.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'sys/soundcard.h' file not found
+#include <sys/soundcard.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -441,15 +465,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files machine/soundcard.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_9190a"
-[1/2] Building C object CMakeFiles/cmTC_9190a.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_9190a.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'machine/soundcard.h' file not found
-#include <machine/soundcard.h>
-         ^~~~~~~~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c76a1"
+[1/2] Building C object CMakeFiles/cmTC_c76a1.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_c76a1.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_c76a1.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'machine/soundcard.h' file not found
+#include <machine/soundcard.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -460,15 +485,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files mmsystem.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_90e79"
-[1/2] Building C object CMakeFiles/cmTC_90e79.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_90e79.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'mmsystem.h' file not found
-#include <mmsystem.h>
-         ^~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_8ed4f"
+[1/2] Building C object CMakeFiles/cmTC_8ed4f.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_8ed4f.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_8ed4f.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'mmsystem.h' file not found
+#include <mmsystem.h>
+         ^~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -478,29 +504,37 @@ Source:
 
 int main(void){return 0;}
 
-Determining if the function ogg_stream_flush exists in the ogg failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Determining if files vorbis/codec.h exist failed with the following output:
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f7716"
-[1/2] Building C object CMakeFiles/cmTC_f7716.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_f7716
-FAILED: cmd.exe /C "cd . && C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=ogg_stream_flush  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections CMakeFiles/cmTC_f7716.dir/CheckFunctionExists.c.o  -o cmTC_f7716  -logg -lm -latomic -lm && cd ."
-C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\ld: error: cannot find -logg
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'ogg_stream_flush'
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_2a064"
+[1/2] Building C object CMakeFiles/cmTC_2a064.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_2a064.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_2a064.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'vorbis/codec.h' file not found
+#include <vorbis/codec.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
+Source:
+/* */
+#include <vorbis/codec.h>
+
+
+int main(void){return 0;}
 
 Determining if files opusfile.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_906f5"
-[1/2] Building C object CMakeFiles/cmTC_906f5.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_906f5.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'opusfile.h' file not found
-#include <opusfile.h>
-         ^~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_54eef"
+[1/2] Building C object CMakeFiles/cmTC_54eef.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_54eef.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_54eef.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'opusfile.h' file not found
+#include <opusfile.h>
+         ^~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -511,15 +545,16 @@ Source:
 int main(void){return 0;}
 
 Determining if files wavpack/wavpack.h exist failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2b4dd"
-[1/2] Building C object CMakeFiles/cmTC_2b4dd.dir/CheckIncludeFiles.c.o
-FAILED: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_2b4dd.dir/CheckIncludeFiles.c.o   -c F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
-F:\SoxCommandLibAndroid\soxcommandlibrary\.cxx\cmake\debug\x86\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:10: fatal error: 'wavpack/wavpack.h' file not found
-#include <wavpack/wavpack.h>
-         ^~~~~~~~~~~~~~~~~~~
-1 error generated.
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_abb93"
+[1/2] Building C object CMakeFiles/cmTC_abb93.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_abb93.dir/CheckIncludeFiles.c.o 
+D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_abb93.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'wavpack/wavpack.h' file not found
+#include <wavpack/wavpack.h>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 Source:
@@ -530,15 +565,16 @@ Source:
 int main(void){return 0;}
 
 Determining if the function lame_set_VBR_quality exists failed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4cf63"
-[1/2] Building C object CMakeFiles/cmTC_4cf63.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_4cf63
-FAILED: cmd.exe /C "cd . && C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=lame_set_VBR_quality  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections CMakeFiles/cmTC_4cf63.dir/CheckFunctionExists.c.o  -o cmTC_4cf63  -lmp3lame -lm -latomic -lm && cd ."
-C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\ld: error: cannot find -lmp3lame
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules/CheckFunctionExists.c:17: error: undefined reference to 'lame_set_VBR_quality'
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a54cc"
+[1/2] Building C object CMakeFiles/cmTC_a54cc.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a54cc
+FAILED: cmTC_a54cc 
+cmd.exe /C "cd . && D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=lame_set_VBR_quality  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_a54cc.dir/CheckFunctionExists.c.o  -o cmTC_a54cc  -lmp3lame -lm -latomic -lm && cd ."
+D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\ld: error: cannot find -lmp3lame
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:17: error: undefined reference to 'lame_set_VBR_quality'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ninja: build stopped: subcommand failed.
 
 

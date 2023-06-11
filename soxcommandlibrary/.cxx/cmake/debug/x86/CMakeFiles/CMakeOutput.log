@@ -1,53 +1,55 @@
 The target system is: Android - 1 - i686
-The host system is: Windows - 10.0.18362 - AMD64
+The host system is: Windows - 10.0.19045 - AMD64
 Determining if the C compiler works passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_cd8fd"
-[1/2] Building C object CMakeFiles/cmTC_cd8fd.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_cd8fd
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_67410"
+[1/2] Building C object CMakeFiles/cmTC_67410.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_67410
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4cdd9"
-[1/2] Building C object CMakeFiles/cmTC_4cdd9.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_4cdd9
-Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
-Target: i686-none-linux-android17
-Thread model: posix
-InstalledDir: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin
-Found candidate GCC installation: C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
-Found candidate GCC installation: C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x
-Selected GCC installation: C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x
-Candidate multilib: .;@m32
-Selected multilib: .;@m32
- "C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_4cdd9 "C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtbegin_dynamic.o" "-LC:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\8.0.7\\lib\\linux\\i386" -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17 -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_4cdd9.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtend_android.o"
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e47a1"
+[1/2] Building C object CMakeFiles/cmTC_e47a1.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_e47a1
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: i686-none-linux-android17
+Thread model: posix
+InstalledDir: D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
+Found candidate GCC installation: D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x
+Selected GCC installation: D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_e47a1 "D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtbegin_dynamic.o" "-LD:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\i386" -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17 -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_e47a1.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtend_android.o"
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(i686-linux-android-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4cdd9"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_4cdd9.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_4cdd9]
-  ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
-  ignore line: [Target: i686-none-linux-android17]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\bin]
-  ignore line: [Found candidate GCC installation: C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
-  ignore line: [Found candidate GCC installation: C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x]
-  ignore line: [Selected GCC installation: C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e47a1"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_e47a1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_e47a1]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: i686-none-linux-android17]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
+  ignore line: [Found candidate GCC installation: D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
   ignore line: [Candidate multilib: .]
-  ignore line: [@m32]
+  ignore line: [@m32]
   ignore line: [Selected multilib: .]
-  ignore line: [@m32]
-  link line: [ "C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_4cdd9 "C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtbegin_dynamic.o" "-LC:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\8.0.7\\lib\\linux\\i386" -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17 -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_4cdd9.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtend_android.o"]
-    arg [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\ld] ==> ignore
-    arg [--sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+  ignore line: [@m32]
+  link line: [ "D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_e47a1 "D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtbegin_dynamic.o" "-LD:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\i386" -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17 -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_e47a1.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtend_android.o"]
+    arg [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld] ==> ignore
+    arg [--sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=both] ==> ignore
@@ -58,52 +60,50 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4cdd9] ==> ignore
-    arg [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\crtbegin_dynamic.o] ==> ignore
-    arg [-LC:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\8.0.7\lib\linux\i386] ==> dir [C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\8.0.7\lib\linux\i386]
-    arg [-LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
-    arg [-LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17] ==> dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17]
-    arg [-LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android]
-    arg [-LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
-    arg [-LC:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [cmTC_e47a1] ==> ignore
+    arg [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtbegin_dynamic.o] ==> ignore
+    arg [-LD:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\i386] ==> dir [D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\i386]
+    arg [-LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+    arg [-LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17] ==> dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17]
+    arg [-LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android]
+    arg [-LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-LD:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--exclude-libs] ==> ignore
+    arg [libgcc_real.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
     arg [libatomic.a] ==> ignore
     arg [--build-id] ==> ignore
-    arg [--warn-shared-textrel] ==> ignore
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
-    arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_4cdd9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e47a1.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\crtend_android.o] ==> ignore
-  remove lib [gcc]
-  remove lib [gcc]
-  collapse library dir [C:\Users\se0877\AppData\Local\Android\Sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\8.0.7\lib\linux\i386] ==> [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/8.0.7/lib/linux/i386]
-  collapse library dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
-  collapse library dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17] ==> [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17]
-  collapse library dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android] ==> [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android]
-  collapse library dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib]
-  collapse library dir [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
-  implicit libs: [dl;c;dl]
-  implicit dirs: [C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/8.0.7/lib/linux/i386;C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x;C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17;C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android;C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib;C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17\\crtend_android.o] ==> ignore
+  collapse library dir [D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\i386] ==> [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/lib/linux/i386]
+  collapse library dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17] ==> [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17]
+  collapse library dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android] ==> [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android]
+  collapse library dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib]
+  collapse library dir [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/lib/linux/i386;D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x;D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/17;D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android;D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib;D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f5484"
-[1/2] Building C object CMakeFiles/cmTC_f5484.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_f5484
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d69bf"
+[1/2] Building C object CMakeFiles/cmTC_d69bf.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_d69bf
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -113,11 +113,11 @@ Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\b
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f5208"
-[1/2] Building C object CMakeFiles/cmTC_f5208.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_f5208
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_bcfb7"
+[1/2] Building C object CMakeFiles/cmTC_bcfb7.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_bcfb7
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -127,11 +127,11 @@ Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\b
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_9187d"
-[1/2] Building C object CMakeFiles/cmTC_9187d.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_9187d
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_97218"
+[1/2] Building C object CMakeFiles/cmTC_97218.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_97218
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -139,201 +139,201 @@ Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\b
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if files byteswap.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_7f257"
-[1/2] Building C object CMakeFiles/cmTC_7f257.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_7f257
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5b141"
+[1/2] Building C object CMakeFiles/cmTC_5b141.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_5b141
 
 
 Determining if files inttypes.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_e6a5b"
-[1/2] Building C object CMakeFiles/cmTC_e6a5b.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_e6a5b
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_8e7d9"
+[1/2] Building C object CMakeFiles/cmTC_8e7d9.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_8e7d9
 
 
 Determining if files fenv.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_6c54f"
-[1/2] Building C object CMakeFiles/cmTC_6c54f.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_6c54f
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e8452"
+[1/2] Building C object CMakeFiles/cmTC_e8452.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_e8452
 
 
 Determining if files glob.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f2860"
-[1/2] Building C object CMakeFiles/cmTC_f2860.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_f2860
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_fb858"
+[1/2] Building C object CMakeFiles/cmTC_fb858.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_fb858
 
 
 Determining if files stdint.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_a7243"
-[1/2] Building C object CMakeFiles/cmTC_a7243.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_a7243
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c3656"
+[1/2] Building C object CMakeFiles/cmTC_c3656.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_c3656
 
 
 Determining if files string.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f17a0"
-[1/2] Building C object CMakeFiles/cmTC_f17a0.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_f17a0
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_8befe"
+[1/2] Building C object CMakeFiles/cmTC_8befe.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_8befe
 
 
 Determining if files strings.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_3a93d"
-[1/2] Building C object CMakeFiles/cmTC_3a93d.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_3a93d
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_f0e9f"
+[1/2] Building C object CMakeFiles/cmTC_f0e9f.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_f0e9f
 
 
 Determining if files sys/stat.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_18efd"
-[1/2] Building C object CMakeFiles/cmTC_18efd.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_18efd
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ad504"
+[1/2] Building C object CMakeFiles/cmTC_ad504.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_ad504
 
 
 Determining if files sys/time.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_98962"
-[1/2] Building C object CMakeFiles/cmTC_98962.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_98962
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_1c724"
+[1/2] Building C object CMakeFiles/cmTC_1c724.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_1c724
 
 
 Determining if files sys/types.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_2875f"
-[1/2] Building C object CMakeFiles/cmTC_2875f.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_2875f
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b8f4c"
+[1/2] Building C object CMakeFiles/cmTC_b8f4c.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_b8f4c
 
 
 Determining if files sys/utsname.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_bc7a9"
-[1/2] Building C object CMakeFiles/cmTC_bc7a9.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_bc7a9
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_3eab7"
+[1/2] Building C object CMakeFiles/cmTC_3eab7.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_3eab7
 
 
 Determining if files termios.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_123c5"
-[1/2] Building C object CMakeFiles/cmTC_123c5.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_123c5
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_557e0"
+[1/2] Building C object CMakeFiles/cmTC_557e0.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_557e0
 
 
 Determining if files unistd.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_f26c0"
-[1/2] Building C object CMakeFiles/cmTC_f26c0.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_f26c0
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_0d8f5"
+[1/2] Building C object CMakeFiles/cmTC_0d8f5.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_0d8f5
 
 
 Determining if the function fseeko exists passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_c6771"
-[1/2] Building C object CMakeFiles/cmTC_c6771.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_c6771
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5a7c7"
+[1/2] Building C object CMakeFiles/cmTC_5a7c7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5a7c7
 
 
 Determining if the function gettimeofday exists passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_47edf"
-[1/2] Building C object CMakeFiles/cmTC_47edf.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_47edf
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_67ba2"
+[1/2] Building C object CMakeFiles/cmTC_67ba2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_67ba2
 
 
 Determining if the function mkstemp exists passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_178a1"
-[1/2] Building C object CMakeFiles/cmTC_178a1.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_178a1
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c634e"
+[1/2] Building C object CMakeFiles/cmTC_c634e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c634e
 
 
 Determining if the function popen exists passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_3b5a3"
-[1/2] Building C object CMakeFiles/cmTC_3b5a3.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_3b5a3
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_7b62a"
+[1/2] Building C object CMakeFiles/cmTC_7b62a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7b62a
 
 
 Determining if the function strcasecmp exists passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_63478"
-[1/2] Building C object CMakeFiles/cmTC_63478.dir/CheckFunctionExists.c.o
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
-  CHECK_FUNCTION_EXISTS();
-  ^
-<command line>:2:31: note: expanded from here
-#define CHECK_FUNCTION_EXISTS strcasecmp
-                              ^
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
-<command line>:2:31: note: expanded from here
-#define CHECK_FUNCTION_EXISTS strcasecmp
-                              ^
-1 warning generated.
-[2/2] Linking C executable cmTC_63478
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_65bdd"
+[1/2] Building C object CMakeFiles/cmTC_65bdd.dir/CheckFunctionExists.c.o
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_65bdd
 
 
 Determining if the function vsnprintf exists passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_579c1"
-[1/2] Building C object CMakeFiles/cmTC_579c1.dir/CheckFunctionExists.c.o
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
-  CHECK_FUNCTION_EXISTS();
-  ^
-<command line>:2:31: note: expanded from here
-#define CHECK_FUNCTION_EXISTS vsnprintf
-                              ^
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned int, const char *, __builtin_va_list)'
-<command line>:2:31: note: expanded from here
-#define CHECK_FUNCTION_EXISTS vsnprintf
-                              ^
-1 warning generated.
-[2/2] Linking C executable cmTC_579c1
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_0ed84"
+[1/2] Building C object CMakeFiles/cmTC_0ed84.dir/CheckFunctionExists.c.o
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned int, const char *, __builtin_va_list)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_0ed84
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4b251"
-[1/2] Building C object CMakeFiles/cmTC_4b251.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_4b251
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_652e0"
+[1/2] Building C object CMakeFiles/cmTC_652e0.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_652e0
 
 
 Determining size of unsigned short passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_4f004"
-[1/2] Building C object CMakeFiles/cmTC_4f004.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-[2/2] Linking C executable cmTC_4f004
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_771af"
+[1/2] Building C object CMakeFiles/cmTC_771af.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+[2/2] Linking C executable cmTC_771af
 
 
 Determining if the system is big endian passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_b107d"
-[1/2] Building C object CMakeFiles/cmTC_b107d.dir/TestEndianess.c.o
-[2/2] Linking C executable cmTC_b107d
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_76314"
+[1/2] Building C object CMakeFiles/cmTC_76314.dir/TestEndianess.c.o
+[2/2] Linking C executable cmTC_76314
 
 TestEndianess.c:
 /* A 16 bit integer is required. */
@@ -362,64 +362,56 @@ int main(int argc, char *argv[])
 
 
 Determining if files math.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_e1b3a"
-[1/2] Building C object CMakeFiles/cmTC_e1b3a.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_e1b3a
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_84b11"
+[1/2] Building C object CMakeFiles/cmTC_84b11.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_84b11
 
 
 Determining if the function pow exists in the m passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_bf2ef"
-[1/2] Building C object CMakeFiles/cmTC_bf2ef.dir/CheckFunctionExists.c.o
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
-  CHECK_FUNCTION_EXISTS();
-  ^
-<command line>:2:31: note: expanded from here
-#define CHECK_FUNCTION_EXISTS pow
-                              ^
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
-<command line>:2:31: note: expanded from here
-#define CHECK_FUNCTION_EXISTS pow
-                              ^
-1 warning generated.
-[2/2] Linking C executable cmTC_bf2ef
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_87b97"
+[1/2] Building C object CMakeFiles/cmTC_87b97.dir/CheckFunctionExists.c.o
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_87b97
 
 
 Determining if files math.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_7a62c"
-[1/2] Building C object CMakeFiles/cmTC_7a62c.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_7a62c
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_4827f"
+[1/2] Building C object CMakeFiles/cmTC_4827f.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_4827f
 
 
 Determining if the function lrint exists in the m passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: D:/yunshen/carl4sonic/SoxLibInAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_e0647"
-[1/2] Building C object CMakeFiles/cmTC_e0647.dir/CheckFunctionExists.c.o
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'lrint' [-Wincompatible-library-redeclaration]
-  CHECK_FUNCTION_EXISTS();
-  ^
-<command line>:2:31: note: expanded from here
-#define CHECK_FUNCTION_EXISTS lrint
-                              ^
-C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: note: 'lrint' is a builtin with type 'long (double)'
-<command line>:2:31: note: expanded from here
-#define CHECK_FUNCTION_EXISTS lrint
-                              ^
-1 warning generated.
-[2/2] Linking C executable cmTC_e0647
-
-
-Determining if files vorbis/codec.h exist passed with the following output:
-Change Dir: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:\Users\se0877\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_a4b63"
-[1/2] Building C object CMakeFiles/cmTC_a4b63.dir/CheckIncludeFiles.c.o
-[2/2] Linking C executable cmTC_a4b63
+Run Build Command:"D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c1c13"
+[1/2] Building C object CMakeFiles/cmTC_c1c13.dir/CheckFunctionExists.c.o
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'lrint' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrint
+                              ^
+D:/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'lrint' is a builtin with type 'long (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrint
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_c1c13
 
 

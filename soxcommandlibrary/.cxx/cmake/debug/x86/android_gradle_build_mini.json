@@ -1,37 +1,116 @@
 {
   "buildFiles": [
-    "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\CMakeLists.txt",
-    "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\src\\CMakeLists.txt",
-    "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\libgsm\\CMakeLists.txt",
-    "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\lpc10\\CMakeLists.txt"
+    "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\src\\main\\sox\\CMakeLists.txt",
+    "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\src\\main\\sox\\src\\CMakeLists.txt",
+    "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\src\\main\\sox\\lpc10\\CMakeLists.txt",
+    "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\src\\main\\sox\\libgsm\\CMakeLists.txt"
   ],
-  "cleanCommands": [
-    "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target clean"
+  "cleanCommandsComponents": [
+    [
+      "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
+    "soxi-Debug-x86": {
+      "artifactName": "soxi",
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+        "soxi"
+      ],
+      "abi": "x86",
+      "runtimeFiles": []
+    },
     "mySox-Debug-x86": {
       "artifactName": "mySox",
-      "buildCommand": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target mySox",
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+        "mySox"
+      ],
       "abi": "x86",
-      "output": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj\\x86\\libmySox.so"
+      "output": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj\\x86\\libmySox.so",
+      "runtimeFiles": []
     },
     "lpc10-Debug-x86": {
       "artifactName": "lpc10",
-      "buildCommand": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target lpc10",
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+        "lpc10"
+      ],
       "abi": "x86",
-      "output": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\lpc10\\liblpc10.a"
+      "output": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\lpc10\\liblpc10.a",
+      "runtimeFiles": []
+    },
+    "rec-Debug-x86": {
+      "artifactName": "rec",
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+        "rec"
+      ],
+      "abi": "x86",
+      "runtimeFiles": []
     },
     "libsox-Debug-x86": {
       "artifactName": "libsox",
-      "buildCommand": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target libsox",
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+        "libsox"
+      ],
       "abi": "x86",
-      "output": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\src\\liblibsox.a"
+      "output": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\src\\liblibsox.a",
+      "runtimeFiles": []
+    },
+    "tags-Debug-x86": {
+      "artifactName": "tags",
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+        "tags"
+      ],
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "play-Debug-x86": {
+      "artifactName": "play",
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+        "play"
+      ],
+      "abi": "x86",
+      "runtimeFiles": []
     },
     "gsm-Debug-x86": {
       "artifactName": "gsm",
-      "buildCommand": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target gsm",
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+        "gsm"
+      ],
       "abi": "x86",
-      "output": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\libgsm\\libgsm.a"
+      "output": "D:\\yunshen\\carl4sonic\\SoxLibInAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\libgsm\\libgsm.a",
+      "runtimeFiles": []
     }
   }
 }
